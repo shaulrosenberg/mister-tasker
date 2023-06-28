@@ -1,0 +1,35 @@
+.task-preview {
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        // background-color: #f9f9f9;
+        transform: scale(1.02);
+    }
+
+    &.expanded {
+        background-color: #f9f9f9;
+    }
+
+    .expanded-list-item {
+        td {
+            padding: 1rem;
+            background-color: #f9f9f9;
+        }
+    }
+
+    .delete-button {
+        @include button-styles;
+        background-color: #dc3545;
+    }
+
+    .retry-button {
+        @include button-styles;
+        background-color: #28a745;
+    }
+
+    .run-button {
+        @include button-styles;
+        background-color: #007bff;
+    }
+}

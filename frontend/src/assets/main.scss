@@ -1,0 +1,19 @@
+// base
+@import './styles/base/fonts';
+@import './styles/base/base';
+@import './styles/base/layout';
+@import './styles/base/helpers';
+
+// setup
+@import './styles/setup/mixins';
+
+// cmps
+@import './styles/cmps/task-controls';
+@import './styles/cmps/task-preview';
+@import './styles/cmps/task-list';
+@import './styles/cmps/add-task';
+@import './styles/cmps/task-filter';
+@import './styles/cmps/app-header';
+
+// views
+@import './styles/views/task-index';
